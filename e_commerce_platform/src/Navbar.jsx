@@ -4,6 +4,7 @@ const Navbar = () => {
     return (
         <div>
             This Is Navbar
+            i added second line
         </div>
     );
 };
