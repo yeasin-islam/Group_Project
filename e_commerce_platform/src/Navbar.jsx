@@ -2,9 +2,15 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
+          <nav>
             This Is Navbar
-        </div>
+            <ul className="navbar-links" style={{ listStyleType: 'none', display: 'flex', gap: '20px' }}>
+                <li>Home</li>
+                <li>Products</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     );
 };
 

@@ -12,6 +12,7 @@ const Chat = () => {
             { id: 1, text: 'Hi there!', sender: 'other' },
             { id: 2, text: 'Hello! How can I help you?', sender: 'me' },
             { id: 3, text: 'I have a question about your service.', sender: 'other' },
+            { id: 4, text: 'I have a question about your service.', sender: 'other' },
         ]);
     }, []);
 
